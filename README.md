@@ -45,7 +45,7 @@ bash Phisher.sh
   <a href="https://www.youtube.com/channel/UC5ba_E8pgMV0ETCRn7PQzUg?view_as=subscriber">
     <img src="https://www.iconsdb.com/icons/preview/black/youtube-4-xxl.png" width="40" height="40">
   </a>
-  <a href="https://instagram.com/sadnessvibewithbadeffect">
+  <a href="https://instagram.com/froggy__19">
     <img src="http://clipart-library.com/images_k/instagram-png-transparent/instagram-png-transparent-16.png" width="40" height="40">
     </a>
 </p>
