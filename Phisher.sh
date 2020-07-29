@@ -152,7 +152,7 @@ printf "\n"
 }
 
 createpage() {
-default_cap1="Wi-fi Session Expired"
+default_cap1="Wi-fi Session Expired , Try again"
 default_cap2="Please login again."
 default_user_text="Username:"
 default_pass_text="Password:"
