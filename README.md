@@ -18,6 +18,7 @@
 </p>
 <p align="center">
  Don't copy this code without give me the credits.
+    use your brain not ctrl + c.🙂😉
 </p>
 
 ## Features
