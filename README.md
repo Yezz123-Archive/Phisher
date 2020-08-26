@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="480" height="480" src="https://media.giphy.com/media/XDR64mETud6sx0b0m6/giphy.gif">
+  <img width="480" height="480" src="https://media.giphy.com/media/3o7bueY41ArnIrJ67K/giphy.gif">
 </p>
 <p align="center"><img src="https://img.shields.io/badge/Version-1.0-brightgreen"></p>
 
