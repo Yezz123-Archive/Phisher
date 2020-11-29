@@ -32,6 +32,13 @@ git clone https://github.com/yezz123/Phisher
 cd Phisher
 bash Phisher.sh
 ```
+### Requirements
+```
+PHP
+Wget
+Unzip
+Curl
+```
 
 ### Donate!
 
