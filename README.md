@@ -76,6 +76,9 @@ http://127.0.0.1:4040/status
 ## Contributing ⭐ :
 Contributions are welcome! ♥! Please share any features, and add unit tests! Use the pull request and issue systems to contribute.
 
+## Disclaimer  :
+The information provided by [Phisher](https://github.com/yezz123/Phisher) is for general informational purposes only. All information on the Repository is provided in good faith, however we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability or completeness of any information on the repository.
+
 ## Contact 🏆 :
 <p align="center">
     <a href="https://yassertahiri.medium.com/">
