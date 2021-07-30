@@ -1,6 +1,5 @@
-<p align="center">
-  <img src="https://github.com/yezz123/Phisher/blob/master/.github/Banner.gif">
-  </p>
+![Header](.github/header.svg)
+
 <p align="center">
    <img src="https://img.shields.io/badge/Dev-Yezz123-green?style"/>
    <img src="https://img.shields.io/github/license/yezz123/phisher"/>
@@ -10,88 +9,91 @@
    <img src="https://visitor-badge.laobi.icu/badge?page_id=yezz123.Pretty-Readme">
 </p>
 
-# Overview 🤯
+# Phisher
 
-- Tool designed for performing various social engineering attacks. For phishing, SET allows for sending phishing Website to get the Number/Email/username & password, as well as some more advanced options, such as +10 Templates with new updates for 2021 & fast connection with Ngrok Application.
+- Tool designed for performing various social engineering attacks using PHP Apache & Ngrok.
 
-## Features🔑
+## Getting Started
 
-- Phishing Tool easy to use & fast.
-- With more than 10+ Templates of most visited website in the world.
-- Instagram, Facebook, Twitter, Snapchat, Yahoo, Protonmail, Google, Spotify, Netflix, Linkedin, Wordpress, Origin, Steam, Microsoft, InstaFollowers..........
-- Use [NGROK](https://ngrok.com/) a cross-platform application that enables developers to expose a local development server to the Internet with minimal effort.
+- For phishing, Phisher allows for sending phishing Website to get the Number | Email | Username & password, as well as some more advanced options, such as Original Template, and fast phish connection with Ngrok.
 
-## Requirements 🔥
+### Prerequisites
 
-#### 1- PHP with Apache
+- Linux environment (Ubuntu, Debian, CentOS, RedHat, Fedora, etc.).
+- PHP 5.6+, Apache 2.4+.
+- Curl, OpenSSL.
 
-```sh
-sudo apt install php libapache2-mod-php
-```
-
-<i>Once the packages are installed restart the Apache service:</i>
+### Project setup
 
 ```sh
-sudo systemctl restart apache2
+# clone the repo
+$ git clone https://github.com/yezz123/Phisher
+
+# move to the project folder
+$ cd Phisher
 ```
 
-#### 2- Wget
+### Install dependencies
 
-<i>To install wget ,log in via SSH as root and run the command:</i>
+- Install all the dependencies used to run Phisher (PHP, Apache, Ngrok, Curl, OpenSSL).
+
+1- Install PHP.
+
+```shell
+# install all php deps
+$ sudo apt install php libapache2-mod-php
+
+# Once the packages are installed restart the Apache service
+$ sudo systemctl restart apache2
+```
+
+2- Install Wget.
+
+```shell
+# login via SSH as root and run the command
+$ sudo apt-get install wget
+
+# confirm the installation of the wget
+$ sudo dpkg -l | grep wget
+```
+
+3- Install UnZip & Curl.
+
+```shell
+# Ubuntu or Debian use the command below to install unzip
+$ sudo apt-get install unzip
+
+# get latest stable curl version
+$ sudo apt install curl
+```
+
+### Running the Application
+
+- After the dependencies are installed, you can run the application by running the following command.
 
 ```sh
-sudo apt-get install wget
+# Running the application
+$ bash Phisher.sh
 ```
 
-<i>To confirm the installation of the wget tool, run the command.</i>
+> - If the link don't show run the **NGROK Stat** using this ling <http://localhost:4040/status>.
 
-```sh
-sudo dpkg -l | grep wget
-```
+## Preconfigured Packages
 
-#### 3- UnZip
+Includes preconfigured packages to kick start Phisher by just setting appropriate configuration.
 
-<i>Installing unzip is easy! With Ubuntu and Debian use the command below to install unzip:</i>
+| Package                     |Usage         |
+| --------------------------- | ----------------------------------------------------------------- |
+| [NGROK](https://ngrok.com/) | cross-platform application that enables developers to expose a local development server to the Internet with minimal effort. |
 
-```sh
-sudo apt-get install unzip
-```
+## Contributing
 
-#### 4- Curl
+- Join the Phisher Creator and Contribute to the Project if you have any enhancement or add-ons to create a good and Secure Project, Help any User to Use it in a good and simple way.
 
-<i>First update the system and get latest stable curl version :</i>
-
-```sh
-sudo apt-get update
-sudo apt-get upgrade
-```
-
-<i>Type the following apt command or apt-get command:</i>
-
-```sh
-sudo apt install curl
-```
-
-## Usage 🐍
-
-```sh
-git clone https://github.com/yezz123/Phisher
-cd Phisher
-bash Phisher.sh
-```
-
-- If the link don't show run the **NGROK Stat** :
-
-```sh
-http://127.0.0.1:4040/status
-```
-
-- Then Copy the HTTPS link and send it <3
-
-## Contributing ⭐
-
-Contributions are welcome! ♥! Please share any features, and add unit tests! Use the pull request and issue systems to contribute.
-
-## Disclaimer
+### Disclaimer
 
 This project can only be used for educational purposes. Using this software against target systems without prior permission is illegal, and any damages from misuse of this software will not be the responsibility of the author.
+
+## License
+
+This project is licensed under the terms of the [MIT license](LICENSE).
